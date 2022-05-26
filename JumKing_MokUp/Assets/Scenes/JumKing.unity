@@ -578,7 +578,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525118280}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &525118282
 Camera:
   m_ObjectHideFlags: 0
@@ -863,10 +863,16 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: a5949f80838c4cb458a223f21ae8bd95, type: 2}
+    - target: {fileID: 1509623015285448791, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 50187148f823c2a4ea709db32411bf91,
+        type: 2}
     - target: {fileID: 8060480995907174723, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Power","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Power","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
