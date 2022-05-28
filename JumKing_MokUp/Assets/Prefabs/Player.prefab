@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 61030017177824154}
   - component: {fileID: 50304428359922864}
   - component: {fileID: 8060480995907174723}
-  - component: {fileID: 1509623015285448791}
   - component: {fileID: 1924731207}
   m_Layer: 8
   m_Name: Player
@@ -124,7 +123,7 @@ Transform:
   m_GameObject: {fileID: 1784235645598328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.44, y: -1.1117971, z: 0}
-  m_LocalScale: {x: 0.8, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 4566812615480170}
   m_Father: {fileID: 0}
@@ -169,7 +168,7 @@ SpriteRenderer:
   m_SortingLayerID: 1401015027
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 47968901c535c534aa65fe15ac5a77da, type: 3}
+  m_Sprite: {fileID: 124673092095999976, guid: a7cf3c99554e93c4ab9785b790fb8909, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -208,22 +207,22 @@ BoxCollider2D:
   m_GameObject: {fileID: 1784235645598328}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e2a1414890735a8488a9cfe43ffcd61e, type: 2}
+  m_Material: {fileID: 6200000, guid: a5949f80838c4cb458a223f21ae8bd95, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.27700734}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.32, y: 1.84}
+    oldSize: {x: 0.24, y: 0.26}
     newSize: {x: 1.5, y: 1.81}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 1.2806962}
+  m_Size: {x: 0.24, y: 0.25}
   m_EdgeRadius: 0
 --- !u!50 &50304428359922864
 Rigidbody2D:
@@ -261,22 +260,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectSunder","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1509623015285448791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784235645598328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: b7f736dda55667d4dbbf95d1bd4186da, type: 2}
 --- !u!114 &1924731207
 MonoBehaviour:
   m_ObjectHideFlags: 0
