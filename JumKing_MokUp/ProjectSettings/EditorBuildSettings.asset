@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JumKing.unity
     guid: f4196d4f79a74f24fac61bc2ce324464
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: a3ee3c1556592e443a16ad993b97cbb6
   m_configObjects: {}
