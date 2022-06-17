@@ -25,11 +25,11 @@ EditorBuildSettings:
     guid: 279a8870345208046b22f7aa2b7fe228
   - enabled: 1
     path: Assets/Scenes/Re_Intro.unity
-    guid: 50a6244fd053930448859cd641bfd7b6
-  - enabled: 1
-    path: Assets/Scenes/Re_JumKing.unity
-    guid: 46f2ba63126e7ba4ea959fc3062c19fa
+    guid: a2dcaa7ca9df8fe41ab08d371aad276c
   - enabled: 1
     path: Assets/Scenes/Re_PreGame.unity
-    guid: 9cc2bbf2817c9324fb5e65a0abb52f52
+    guid: cae430f7c5b15a4478aabdbb306f1b48
+  - enabled: 1
+    path: Assets/Scenes/Re_JumKing.unity
+    guid: e911ab437ea8bc44c8a632377eed6df7
   m_configObjects: {}
